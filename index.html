@@ -30,7 +30,7 @@
       <a class="nav-link" href="#resrc"><i class="far fa-bookmark mr-1"></i>Resources</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#recs"><i class="fas fa-book mr-1"></i>Recommendations</a>
+      <a class="nav-link" href="#radioK"><i class="fas fa-book mr-1"></i>Recommendations</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#contact"><i class="far fa-envelope mr-1 border-left border-color-dark pl-3"></i>Connect</a>
@@ -39,8 +39,93 @@
 </header>
 
 <main class="container-fluid d-flex flex-column align-items-center">
-<!---Accordion-->
-<section id="recs" class="container">
+
+<!---Accordion (for reading lists)-->
+<section id="bookshelf" class="container py-3 px-5 my-5">
+  <form>
+    <ul>
+      <li>
+        <input id="radioK" type="radio" name="radio">
+        <label for="radioK" class="pl-3">Pre-K</label>
+        <div class="accslide">
+         <h2 class="bookTitle">title</h2>
+         <p class="bookAuthor">author</p>
+         <p class="synopsis"></p>
+         <button class="moreTitles" id="grade">Read More</button>
+        </div>
+      </li>
+
+      <li>
+        <input id="radio1" type="radio" name="radio">
+        <label for="radio1" class="pl-3">Grade 1</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio2" type="radio" name="radio">
+        <label for="radio2" class="pl-3">Grade 2</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio3" type="radio" name="radio">
+        <label for="radio3" class="pl-3">Grade 3</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio4" type="radio" name="radio">
+        <label for="radio4" class="pl-3">Grade 4</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio5" type="radio" name="radio">
+        <label for="radio5" class="pl-3">Grade 5</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio6" type="radio" name="radio">
+        <label for="radio6" class="pl-3">Grade 6</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio78" type="radio" name="radio">
+        <label for="radio78" class="pl-3">Grade 7-8</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio910" type="radio" name="radio">
+        <label for="radio910" class="pl-3">Grade 9-10</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio1112" type="radio" name="radio">
+        <label for="radio1112" class="pl-3">Grade 11-12</label>
+        <div class="accslide">
+        </div>
+      </li>
+
+      <li>
+        <input id="radio10" type="radio" name="radio">
+        <label for="radio10" class="pl-3">Choose Your Story</label>
+        <div class="accslide">
+        </div>
+      </li>
+    </ul>
+  </form>
 
 
 </section>
@@ -50,7 +135,7 @@
 <section class="container rounded my-4" id="mission">
 <div class="row">
   <div class="col-md-6 d-none d-md-flex flex-column justify-content-center align-items-center my-5">
-    <div class="container">
+    <div class="container my-3 py-5">
         <img class="img-fluid d-block mx-auto" id="pirate" src="imgs\ReadAloud15min_pirate.jpg" alt="Read Aloud 15 Minutes Campaign Poster">
 
         <p class="text-center">As education researcher Bernice Cullinan writes, <br>“No one assigns it; no one requires a report; no one checks on comprehension.”</p>
@@ -129,12 +214,17 @@
 </section>
 <!--End of Benefits-->
 
-<!--Carousel-->
+<!--Carousel (for featured books)-->
 <section class="container">
 
 </section>
 <!--End of Carousel-->
 
+<!---Acknowledgments-->
+<section class="team container">
+
+</section>
+<!--end of Acknowledgments-->
 </main>
 
 <footer class="container">

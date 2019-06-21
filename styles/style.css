@@ -108,6 +108,63 @@ main {
 #mission {
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
 }
+
+/*Accordion*/
+#bookshelf {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+}
+
+li > input {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+li > label {
+  display: block;
+  float: left;
+  height: 500px;
+  width: 50px;
+  border-right:1px solid rgba(0,0,0,0.2);
+  writing-mode: vertical-lr;
+  border-radius:2%;
+
+  background: #999; /*use js to random assign color*/
+  text-align: center;
+
+  -webkit-transition: width 1s ease, background 0.5s ease;
+     -moz-transition: width 1s ease, background 0.5s ease;
+       -o-transition: width 1s ease, background 0.5s ease;
+      -ms-transition: width 1s ease, background 0.5s ease;
+          transition: width 1s ease, background 0.5s ease;
+}
+
+.accslide {
+  display: block;
+  height: 500px;
+  width: 0px;
+  padding: 10px 0;
+  float: left;
+  overflow: hidden;
+
+  color: #333;
+  background: #000;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.accslide p, h2, img {
+  padding-left: 10px;
+}
+
+li > input[type="radio"]:checked ~ .accslide {
+  width: 450px;
+}
+
 /*FOOTER*/
 footer {
 }
