@@ -9,6 +9,10 @@
 i {
 }
 
+#pirate {
+  /* height:470px; */
+}
+
 /*
 ===Colors===
 Colors From Original NYC Reads 365 Page
@@ -24,7 +28,7 @@ Pg Border Beige: rgb(204, 204, 204);
 
 /*==[Text Styles]==*/
 h1, h2, h3 {
-  letter-spacing: .08em;
+  letter-spacing: .03em;
   margin-bottom:0.2rem;
 }
 
@@ -36,8 +40,8 @@ h2 {
 }
 
 p, li, a {
-  margin-bottom:0.1rem;
   color:rgb(0, 51, 102);
+  font-size:1rem;
 }
 
 .shadow {
@@ -52,6 +56,10 @@ p, li, a {
 .orange {color:rgb(255, 153, 51);}
 .lightBlue {color:rgb(102, 153, 204);}
 .darkBlue {color:rgb(0, 51, 102);}
+
+.indent {
+  text-indent: 0.7rem;
+}
 /*Links*/
 a {
   text-decoration: none;
@@ -75,14 +83,14 @@ li {
 
 /*Misc Stylings*/
 .container {
-  border: 1x solid #000;
+  background-color:#fff;
 }
 
 /*==[Page Styles]==*/
 /*HEADER*/
 header {
-  background-color: rgb(241, 243, 247);
-  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
+  background-color: rgb(242, 243, 247);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
 }
 /*NAV*/
 nav {
@@ -94,8 +102,12 @@ nav ul {
 
 /*CONTENT*/
 main {
+  background-color: rgba(241, 243, 247,0.3);
 }
 
+#mission {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+}
 /*FOOTER*/
 footer {
 }
