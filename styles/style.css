@@ -1,0 +1,125 @@
+/*==[Global]==*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+/*==[Image & Icon Styles]==*/
+i {
+}
+
+/*
+===Colors===
+Colors From Original NYC Reads 365 Page
+----------------------------------------
+NYC Green: rgb(128, 179, 77);
+NYC Orange: rgb(255, 153, 51);
+NYC Light Blue: rgb(102, 153, 204);
+NYC Dark Blue: rgb(0, 51, 102);
+Pg Background Beige: rgb(226, 217, 204);
+Pg Border Beige: rgb(204, 204, 204);
+
+*/
+
+/*==[Text Styles]==*/
+h1, h2, h3 {
+  letter-spacing: .08em;
+  margin-bottom:0.2rem;
+}
+
+h1 {
+  font-weight:600;
+}
+
+h2 {
+}
+
+p, li, a {
+  margin-bottom:0.1rem;
+  color:rgb(0, 51, 102);
+}
+
+.shadow {
+  text-shadow: 1px 1px #000;
+}
+
+.smallCaps {
+  font-variant: small-caps;
+}
+
+.green {color: rgb(128, 179, 77);}
+.orange {color:rgb(255, 153, 51);}
+.lightBlue {color:rgb(102, 153, 204);}
+.darkBlue {color:rgb(0, 51, 102);}
+/*Links*/
+a {
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+a:hover {
+  color:rgb(102, 153, 204);
+}
+
+/*Lists*/
+ul {
+  list-style: none;
+}
+
+li {
+
+}
+
+/*Animations*/
+
+/*Misc Stylings*/
+.container {
+  border: 1x solid #000;
+}
+
+/*==[Page Styles]==*/
+/*HEADER*/
+header {
+  background-color: rgb(241, 243, 247);
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
+}
+/*NAV*/
+nav {
+
+}
+
+nav ul {
+}
+
+/*CONTENT*/
+main {
+}
+
+/*FOOTER*/
+footer {
+}
+
+#contact {
+
+}
+
+#contact label {
+
+}
+
+input, textarea {
+
+}
+
+textarea {
+
+}
+
+#socialMedia {
+
+}
+
+#socialMedia li i {
+
+}
