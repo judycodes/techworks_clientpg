@@ -22,6 +22,7 @@
 
     <h1 id="brand" class="text-center smallCaps darkBlue pb-2 border-bottom border-color-dark mb-1"><span class="green">N</span><span class="orange">Y</span><span class="lightBlue">C</span> Reads <span class="green">3</span><span class="orange">6</span><span class="lightBlue">5</span></h1>
 
+<!--NavBar-->
   <ul class="nav justify-content-center">
     <li class="nav-item">
       <a class="nav-link" href="#mission"><i class="fas fa-book-reader mr-1"></i>Home</a>
@@ -39,14 +40,14 @@
 </header>
 
 <main class="container-fluid d-flex flex-column align-items-center">
+<!--End of NavBar-->
 
-<!---Accordion (for reading lists)-->
-<section id="bookshelf" class="container py-3 px-5 my-5">
-  <form>
+<!---Accordion (for featured books)-->
+<section  id="bookshelf" class="container py-2 px-3 my-5 ">
     <ul>
       <li>
         <input id="radioK" type="radio" name="radio">
-        <label for="radioK" class="pl-3">Pre-K</label>
+        <label for="radioK" class="pl-3 book">Pre-K</label>
         <div class="accslide">
          <h2 class="bookTitle">title</h2>
          <p class="bookAuthor">author</p>
@@ -57,81 +58,71 @@
 
       <li>
         <input id="radio1" type="radio" name="radio">
-        <label for="radio1" class="pl-3">Grade 1</label>
+        <label for="radio1" class="pl-3 book">Grade 1</label>
         <div class="accslide">
         </div>
       </li>
 
       <li>
         <input id="radio2" type="radio" name="radio">
-        <label for="radio2" class="pl-3">Grade 2</label>
+        <label for="radio2" class="pl-3 book">Grade 2</label>
         <div class="accslide">
         </div>
       </li>
 
       <li>
         <input id="radio3" type="radio" name="radio">
-        <label for="radio3" class="pl-3">Grade 3</label>
+        <label for="radio3" class="pl-3 book">Grade 3</label>
         <div class="accslide">
         </div>
       </li>
 
       <li>
         <input id="radio4" type="radio" name="radio">
-        <label for="radio4" class="pl-3">Grade 4</label>
+        <label for="radio4" class="pl-3 book">Grade 4</label>
         <div class="accslide">
         </div>
       </li>
 
       <li>
         <input id="radio5" type="radio" name="radio">
-        <label for="radio5" class="pl-3">Grade 5</label>
+        <label for="radio5" class="pl-3 book">Grade 5</label>
         <div class="accslide">
         </div>
       </li>
 
       <li>
         <input id="radio6" type="radio" name="radio">
-        <label for="radio6" class="pl-3">Grade 6</label>
+        <label for="radio6" class="pl-3 book">Grade 6</label>
         <div class="accslide">
         </div>
       </li>
 
       <li>
         <input id="radio78" type="radio" name="radio">
-        <label for="radio78" class="pl-3">Grade 7-8</label>
+        <label for="radio78" class="pl-3 book">Grade 7-8</label>
         <div class="accslide">
         </div>
       </li>
 
       <li>
         <input id="radio910" type="radio" name="radio">
-        <label for="radio910" class="pl-3">Grade 9-10</label>
+        <label for="radio910" class="pl-3 book">Grade 9-10</label>
         <div class="accslide">
         </div>
       </li>
 
       <li>
         <input id="radio1112" type="radio" name="radio">
-        <label for="radio1112" class="pl-3">Grade 11-12</label>
-        <div class="accslide">
-        </div>
-      </li>
-
-      <li>
-        <input id="radio10" type="radio" name="radio">
-        <label for="radio10" class="pl-3">Choose Your Story</label>
+        <label for="radio1112" class="pl-3 book">Grade 11-12</label>
         <div class="accslide">
         </div>
       </li>
     </ul>
-  </form>
-
-
 </section>
 <!--End of Accordion-->
 
-<!--Mission-->
+<!--Mission Statement-->
 <section class="container rounded my-4" id="mission">
 <div class="row">
   <div class="col-md-6 d-none d-md-flex flex-column justify-content-center align-items-center my-5">
@@ -162,18 +153,18 @@
 
 </div>
 </section>
-<!--End of Mission-->
+<!--End of Mission Statement-->
 
 <!--Resources-->
 <section class="container py-3 px-3" id="resrc">
   <div class="row">
     <div class="col-md-4">
-      <h2 class="text-left py-3 border-bottom border-color-secondary">
+      <h2 class="text-center py-3 border-bottom border-color-secondary smallCaps">
         Beyond the Text
       </h2>
-      <p class="text-left pt-3">Enhance your reading experience</p>
-      <p class="text-left smallCaps">and</p>
-      <p class="text-left">Explore these pages</p>
+      <p class="text-center pt-3 smallCaps">Enhance Your Reading</p>
+      <p class="text-center smallCaps">and</p>
+      <p class="text-center smallCaps">Explore these pages</p>
     </div>
 
     <div class="col-md-8">
@@ -201,8 +192,6 @@
     </div>
   </div>
 
-
-
   </div>
 
 </section>
@@ -215,7 +204,35 @@
 <!--End of Benefits-->
 
 <!--Carousel (for featured books)-->
-<section class="container">
+<section id="carousel" class="container my-5 py-5">
+  <div class="row">
+    <div class="col=md-6">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-50" src="/imgs/1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-50" src="/imgs/2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-50" src="/imgs/3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </div>
+<div class="col-md-6">
+  <h2>Text</h2>
+</div>
+  </div>
 
 </section>
 <!--End of Carousel-->
@@ -235,6 +252,8 @@
   </div>
 </div>
 </footer>
+<!--External Javascript-->
+    <script src="/scripts/main.js"></script>
 <!--Bootstrap JS, Popper.js, and jQuery Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

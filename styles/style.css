@@ -86,6 +86,10 @@ li {
   background-color:#fff;
 }
 
+.borderTop {
+  border-top: 10px solid rgb(255, 153, 51);
+}
+
 /*==[Page Styles]==*/
 /*HEADER*/
 header {
@@ -118,19 +122,22 @@ li > input {
   position: absolute;
   top: -9999px;
   left: -9999px;
+
 }
 
 li > label {
   display: block;
   float: left;
-  height: 500px;
+  height: 200px;
   width: 50px;
   border-right:1px solid rgba(0,0,0,0.2);
   writing-mode: vertical-lr;
-  border-radius:2%;
-
-  background: #999; /*use js to random assign color*/
+  border-radius:5px;
+  color:#fff;
+  font-weight:500;
+  background: rgb(102, 153, 204);
   text-align: center;
+  text-shadow: 1px 1px rgb(0,0,0);
 
   -webkit-transition: width 1s ease, background 0.5s ease;
      -moz-transition: width 1s ease, background 0.5s ease;
@@ -141,14 +148,14 @@ li > label {
 
 .accslide {
   display: block;
-  height: 500px;
+  height: 200px;
   width: 0px;
   padding: 10px 0;
   float: left;
   overflow: hidden;
-
+  border-radius:5px;
   color: #333;
-  background: #000;
+  background: gray;
 
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -162,7 +169,12 @@ li > label {
 }
 
 li > input[type="radio"]:checked ~ .accslide {
-  width: 450px;
+  width: 150px;
+}
+
+/*Carousel*/
+#carousel {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
 }
 
 /*FOOTER*/
