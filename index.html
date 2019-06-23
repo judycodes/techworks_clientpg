@@ -21,7 +21,6 @@
 <header class="container-fluid sticky-top py-2 px-0">
 
     <h1 id="brand" class="text-center smallCaps darkBlue pb-2 border-bottom border-color-dark mb-1"><span class="green">N</span><span class="orange">Y</span><span class="lightBlue">C</span> Reads <span class="green">3</span><span class="orange">6</span><span class="lightBlue">5</span></h1>
-
 <!--NavBar-->
   <ul class="nav justify-content-center">
     <li class="nav-item">
@@ -43,12 +42,13 @@
 <!--End of NavBar-->
 
 <!---Accordion (for featured books)-->
-<section  id="bookshelf" class="container-fluid py-2 px-3 my-5 ">
-    <ul id="books">
+<section  id="bookshelf" class="py-3 my-5 rounded">
+
+    <ul id="firstShelf" class="mx-auto shelf">
       <li>
         <input id="radioPK" type="radio" name="radio">
         <label for="radioPK" class="pl-3 book">Pre-K</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle">Cars Go!</p>
             <p class="bookAuthor">Steve Light</p>
@@ -60,7 +60,7 @@
       <li>
         <input id="radioK" type="radio" name="radio">
         <label for="radioK" class="pl-3 book">K</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle mx-2">Extremely Cute Animals Operating Heavy Machinery</p>
             <p class="bookAuthor">David Gordon</p>
@@ -73,7 +73,7 @@
       <li>
         <input id="radio1" type="radio" name="radio">
         <label for="radio1" class="pl-3 book">Grade 1</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle">The Bad Seed</p>
             <p class="bookAuthor">Jory John</p>
@@ -86,7 +86,7 @@
       <li>
         <input id="radio2" type="radio" name="radio">
         <label for="radio2" class="pl-3 book">Grade 2</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle mx-1">This Is How We Do It</p>
             <p class="bookAuthor">Matt Lamothe</p>
@@ -99,7 +99,7 @@
       <li>
         <input id="radio3" type="radio" name="radio">
         <label for="radio3" class="pl-3 book">Grade 3</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle">Toilet: How It Works</p>
             <p class="bookAuthor px-1">David Macaulay and Sheila Keenan</p>
@@ -108,11 +108,14 @@
          <button class="smallCaps moreTitles mx-2 px-1 btn btn-warning rounded" id="grade3">choose more books</button>
         </div>
       </li>
+  </ul>
 
+<div id="chooseBk" class="d-flex align-items-center justify-content-center"><a href="https://youtu.be/MuLZKsFho5A" target="_blank" class="my-3 text-center smallCaps pulse">Reading is Fun!<br>Pick A Book Today!</a></div>
+  <ul id="secondShelf" class="mx-auto shelf">
       <li>
         <input id="radio4" type="radio" name="radio">
         <label for="radio4" class="pl-3 book">Grade 4</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle">Grace Hopper</p>
             <p class="bookAuthor">Laurie Wallmark</p>
@@ -125,7 +128,7 @@
       <li>
         <input id="radio5" type="radio" name="radio">
         <label for="radio5" class="pl-3 book">Grade 5</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle">Little Leaders</p>
             <p class="bookAuthor">Vashti Harrison</p>
@@ -138,7 +141,7 @@
       <li>
         <input id="radio6" type="radio" name="radio">
         <label for="radio6" class="pl-3 book">Grade 6</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle">Fly Girls</p>
             <p class="bookAuthor">P. O'Counnell Pearson</p>
@@ -151,7 +154,7 @@
       <li>
         <input id="radio78" type="radio" name="radio">
         <label for="radio78" class="pl-3 book">Grade 7-8</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle px-2">Coding Projects in Scratch</p>
             <p class="bookAuthor">Jon Woodcock</p>
@@ -164,7 +167,7 @@
       <li>
         <input id="radio910" type="radio" name="radio">
         <label for="radio910" class="pl-3 book">Grade 9-10</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle">Genius</p>
             <p class="bookAuthor">Leopoldo Gout</p>
@@ -177,7 +180,7 @@
       <li>
         <input id="radio1112" type="radio" name="radio">
         <label for="radio1112" class="pl-3 book">Grade 11-12</label>
-        <div class="accslide text-center d-flex flex-column align-items-center justify-content-around">
+        <div class="bkSlide text-center d-flex flex-column align-items-center justify-content-around">
           <div>
             <p class="bookTitle px-2">Technically Wrong</p>
             <p class="bookAuthor">Sara Wachter-Boettcher</p>
@@ -186,7 +189,6 @@
          <button class="smallCaps moreTitles mx-2 px-1 btn btn-warning rounded" id="grade1112">choose more books</button>
         </div>
       </li>
-      <li id="chooseBk" class="d-flex justify-content-center"><a href="https://youtu.be/MuLZKsFho5A" target="_blank" class="mt-5 text-center smallCaps pulse">Reading is Fun!<br>Pick A Book Today!</a></li>
     </ul>
 </section>
 <!--End of Accordion-->
@@ -194,16 +196,17 @@
 <!--Mission Statement-->
 <section class="container rounded my-4" id="mission">
 <div class="row">
+
   <div class="col-md-6 d-none d-md-flex flex-column justify-content-center align-items-center my-5">
     <div class="container my-3 py-5">
-        <img class="img-fluid d-block mx-auto" id="pirate" src="imgs\ReadAloud15min_pirate.jpg" alt="Read Aloud 15 Minutes Campaign Poster">
+        <img class="img-fluid d-block mx-auto" src="imgs\ReadAloud15min_pirate.jpg" alt="Read Aloud 15 Minutes Campaign Poster">
 
-        <p class="text-center">As education researcher Bernice Cullinan writes, <br>“No one assigns it; no one requires a report; no one checks on comprehension.”</p>
+        <p class="text-center">As education researcher <br>Bernice Cullinan writes, <br>“No one assigns it; <br>no one requires a report; <br>no one checks on comprehension.”</p>
     </div>
   </div>
 
   <div class="col-md-6 col-sm-12 d-md-flex flex-column justify-content-center align-items-center">
-  <div class="container-fluid pr-5 py-4">
+    <div class="container-fluid pr-5 py-4">
 
     <h2 class="text-center smallCaps darkBlue"><span class="green">N</span><span class="orange">Y</span><span class="lightBlue">C</span> Reads <span class="green">3</span><span class="orange">6</span><span class="lightBlue">5</span>'s Mission</h2>
 
@@ -216,10 +219,8 @@
     <p class="text-justify indent">The first step is helping kids find a book they truly enjoy, whether it be a graphic novel or a book about animals, giddy romance fiction or a heart-stopping zombie adventure, or just a great story about characters they recognize, perhaps even from their own neighborhood.</p>
 
     <p class="text-center indent">The second step is giving kids the space and time and encouragement to read that book <strong>-- no strings attached.</strong></p>
-</div>
+    </div>
   </div>
-
-
 </div>
 </section>
 <!--End of Mission Statement-->
@@ -240,7 +241,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3 col-sm-6">
-
+teachingbooks
           </div>
           <div class="col-md-3 col-sm-6">
 
@@ -268,17 +269,30 @@
 
 <!--Benefits-->
 <section class="container">
+<div class="row">
+  <div class="col-8">
+
+  </div>
+
+  <div class="col-4">
+    <img src="" alt="">
+  </div>
+</div>
+</section>
+<!--End of Benefits-->
+
+<!--Reading Lists-->
+<section class="container">
 
 </section>
 <!--End of Benefits-->
 
-<!--Carousel (for featured books)-->
+<!--Carousel with Suggestion Box Form-->
 <section id="carousel" class="container my-5 py-5">
-  <div class="row">
-    <div class="col-md-6 col-12">
+  <div class="row ml-3">
+    <div class=" col-md-5">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner rounded">
-
           <div class="carousel-item active">
             <img class="img-fluid pl-0" src="/imgs/1.jpg" alt="mom and child reading together">
           </div>
@@ -304,11 +318,13 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      </div>
+      <div class="col-md-7">
+        <h2>Text</h2>
+      </div>
+
   </div>
-<div class="col-md-6 col-12">
-  <h2>Text</h2>
-</div>
-  </div>
+
 
 </section>
 <!--End of Carousel-->

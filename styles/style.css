@@ -9,10 +9,6 @@
 i {
 }
 
-#pirate {
-  /* height:470px; */
-}
-
 /*
 ===Colors===
 Colors From Original NYC Reads 365 Page
@@ -90,25 +86,23 @@ li {
   border-top: 10px solid rgb(255, 153, 51);
 }
 
+.borderBottom {
+  border-bottom: 3px solid rgb(255, 153, 51);
+}
 /*==[Page Styles]==*/
 /*HEADER*/
 header {
   background-color: rgb(242, 243, 247);
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
 }
-/*NAV*/
-nav {
-
-}
-
-nav ul {
-}
+/*Nav*/
 
 /*CONTENT*/
 main {
   background-color: rgba(241, 243, 247,0.3);
 }
 
+/*Mission Statement*/
 #mission {
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
 }
@@ -116,6 +110,12 @@ main {
 /*Accordion*/
 #bookshelf {
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+  min-width: 500px;
+}
+
+#secondShelf, #firstShelf {
+  max-width:450px;
+  clear:left;
 }
 
 li > input {
@@ -128,7 +128,7 @@ li > input {
 li > label {
   display: block;
   float: left;
-  height: 250px;
+  height: 230px;
   width: 50px;
   border-right:1px solid rgba(0,0,0,0.2);
   writing-mode: vertical-lr;
@@ -146,9 +146,9 @@ li > label {
           transition: width 1s ease, background 0.5s ease;
 }
 
-.accslide {
+.bkSlide {
   display: block;
-  height: 250px;
+  height: 230px;
   width: 0px;
   padding: 10px 0;
   float: left;
@@ -164,11 +164,11 @@ li > label {
           transition: all 1s ease;
 }
 
-.accslide p, h2, img {
+.bkSlide p, h2, img {
   padding-left: 10px;
 }
 
-li > input[type="radio"]:checked ~ .accslide {
+li > input[type="radio"]:checked ~ .bkSlide {
   width: 150px;
 }
 
@@ -183,12 +183,20 @@ li > input[type="radio"]:checked ~ .accslide {
   opacity:0.6;
 }
 
-.moreTitles:after {
+.moreTitles::after {
   opacity:0.7;
 }
 
 #chooseBk a {
   font-size:1.5rem;
+}
+
+#chooseBk {
+  clear:left;
+}
+
+.scale {
+  transform: scale(1.05,1.05);
 }
 
 @keyframes pulse {

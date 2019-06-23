@@ -7,5 +7,19 @@ window.addEventListener("load", () => {
   for (i = 0; i < books.length; i++) {
     books[i].style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
     books[i].style.opacity = "0.8";
+    books[i].style.boxShadow = "0px 2.5px rgba(0,0,0,0.3)";
   }
 });
+
+//Creates a book pull out animation
+for (let i = 0; i < books.length; i++) {
+  books[i].addEventListener('mouseover', () => {
+    books[i].classList.add('scale');
+  });
+  books[i].addEventListener('mouseout', () => {
+    books[i].classList.remove('scale');
+  });
+  books[i].addEventListener('click', () => {
+    books[i].classList.remove('scale');
+  });
+}
