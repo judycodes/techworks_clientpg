@@ -7,7 +7,9 @@
 }
 /*==[Image & Icon Styles]==*/
 i {
+  font-size:1.1rem;
 }
+
 
 /*
 ===Colors===
@@ -71,31 +73,29 @@ ul {
   list-style: none;
 }
 
-li {
-
-}
-
-/*Animations*/
-
 /*Misc Stylings*/
 .container {
   background-color:#fff;
 }
 
-.borderTop {
-  border-top: 10px solid rgb(255, 153, 51);
+.borderBottom {
+  border-bottom: 3px solid rgba(255, 153, 51, 0.6);
 }
 
-.borderBottom {
-  border-bottom: 3px solid rgb(255, 153, 51);
-}
 /*==[Page Styles]==*/
 /*HEADER*/
 header {
   background-color: rgb(242, 243, 247);
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
 }
-/*Nav*/
+
+#accbg {
+  position:absolute;
+  top:200px;
+  z-index:-1;
+  background: url("../imgs/shelves.jpg") center/cover no-repeat;
+  height:530px;
+}
 
 /*CONTENT*/
 main {
@@ -109,6 +109,7 @@ main {
 
 /*Accordion*/
 #bookshelf {
+  background: rgba(226, 217, 204,0.88);
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
   min-width: 500px;
 }
@@ -130,7 +131,7 @@ li > label {
   float: left;
   height: 230px;
   width: 50px;
-  border-right:1px solid rgba(0,0,0,0.2);
+  border-right:1px solid rgba(0,0,0,0.25);
   writing-mode: vertical-lr;
   border-radius:5px;
   color:#fff;
@@ -138,12 +139,7 @@ li > label {
   background: rgb(102, 153, 204);
   text-align: center;
   text-shadow: 1px 1px rgb(0,0,0);
-
-  -webkit-transition: width 1s ease, background 0.5s ease;
-     -moz-transition: width 1s ease, background 0.5s ease;
-       -o-transition: width 1s ease, background 0.5s ease;
-      -ms-transition: width 1s ease, background 0.5s ease;
-          transition: width 1s ease, background 0.5s ease;
+  transition: width 1s ease, background 0.5s ease;
 }
 
 .bkSlide {
@@ -155,13 +151,8 @@ li > label {
   overflow: hidden;
   border-radius:5px;
   color: #333;
-  background: rgba(226, 217, 204, 0.5);
-
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+  background: rgba(251,246,241, 0.8);
+  transition: all 1s ease;
 }
 
 .bkSlide p, h2, img {
