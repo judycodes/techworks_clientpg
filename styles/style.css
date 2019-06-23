@@ -128,7 +128,7 @@ li > input {
 li > label {
   display: block;
   float: left;
-  height: 200px;
+  height: 250px;
   width: 50px;
   border-right:1px solid rgba(0,0,0,0.2);
   writing-mode: vertical-lr;
@@ -148,14 +148,14 @@ li > label {
 
 .accslide {
   display: block;
-  height: 200px;
+  height: 250px;
   width: 0px;
   padding: 10px 0;
   float: left;
   overflow: hidden;
   border-radius:5px;
   color: #333;
-  background: gray;
+  background: rgba(226, 217, 204, 0.5);
 
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -172,6 +172,39 @@ li > input[type="radio"]:checked ~ .accslide {
   width: 150px;
 }
 
+.bookTitle {
+  font-weight:bold;
+}
+
+.moreTitles {
+  background: rgba(255, 153, 51, 0.5);
+  font-size:0.86rem;
+  font-weight:500;
+  opacity:0.6;
+}
+
+.moreTitles:after {
+  opacity:0.7;
+}
+
+#chooseBk a {
+  font-size:1.5rem;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  50% { transform: scale(0.95); }
+  to { transform: scale(1); }
+}
+
+.pulse {
+  animation: pulse 2.5s ease-in-out 10;
+}
+
+#chooseBk a:hover {
+  text-decoration: none;
+  animation: pulse 2.5s ease-in-out infinite;
+}
 /*Carousel*/
 #carousel {
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
