@@ -1,15 +1,3 @@
-/*
-===Colors===
-Colors From Original NYC Reads 365 Page
-----------------------------------------
-NYC Green: rgb(128, 179, 77);
-NYC Orange: rgb(255, 153, 51);
-NYC Light Blue: rgb(102, 153, 204);
-NYC Dark Blue: rgb(0, 51, 102);
-Pg Background Beige: rgb(226, 217, 204);
-Pg Border Beige: rgb(204, 204, 204);
-*/
-
 /*==[Global]==*/
 * {
   box-sizing: border-box;
@@ -107,7 +95,7 @@ main {
   position:absolute;
   top:200px;
   z-index:-1;
-  background: url("/imgs/shelves.jpg") center/cover no-repeat;
+  background: url("../imgs/shelves.jpg") center/cover no-repeat;
   height:530px;
 }
 
@@ -214,35 +202,35 @@ li > input[type="radio"]:checked ~ .bkSlide {
 }
 
 #readAhead {
-  background: url("/imgs/readahead.png") bottom left/cover no-repeat;
+  background: url("../imgs/readahead.png") bottom left/cover no-repeat;
 }
 
 #newberyFilm {
-  background: url("/imgs/newberyfilm.png") top left/cover no-repeat;
+  background: url("../imgs/newberyfilm.png") top left/cover no-repeat;
 }
 
 #rif {
-  background: url("/imgs/rif.png") top left/cover no-repeat;
+  background: url("../imgs/rif.png") top left/cover no-repeat;
 }
 
 #readAmer {
-  background: url("/imgs/readacrossamerica.png") top left/cover no-repeat;
+  background: url("../imgs/readacrossamerica.png") top left/cover no-repeat;
 }
 
 #storyOnline {
-  background: url("/imgs/storyonline.png") top left/cover no-repeat;
+  background: url("../imgs/storyonline.png") top left/cover no-repeat;
 }
 
 #readRockets {
-  background: url("/imgs/readingrockets.png") top left/cover no-repeat;
+  background: url("../imgs/readingrockets.png") top left/cover no-repeat;
 }
 
 #kidLitTV {
-  background: url("/imgs/kidlittv.png") top left/cover no-repeat;
+  background: url("../imgs/kidlittv.png") top left/cover no-repeat;
 }
 
 #unite {
-  background: url("/imgs/uniteforliteracy.png") top left/cover no-repeat;
+  background: url("../imgs/uniteforliteracy.png") top left/cover no-repeat;
 }
 
 .page {
@@ -289,7 +277,7 @@ li > input[type="radio"]:checked ~ .bkSlide {
 
 /*Reading Lists*/
 #lists {
-  background: url("/imgs/bookstack.jpg") center/cover no-repeat;
+  background: url("../imgs/bookstack.jpg") center/cover no-repeat;
 }
 
 /*Carousel and Form*/
