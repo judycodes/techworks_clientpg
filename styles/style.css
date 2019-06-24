@@ -26,6 +26,7 @@ i {
 h1, h2, h3 {
   letter-spacing: .03em;
   margin-bottom:0.2rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1 {
@@ -34,7 +35,8 @@ h1 {
 
 p, li, a {
   color:rgb(0, 51, 102);
-  font-size:1rem;
+  font-size:1.3rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .smallCaps {
@@ -87,6 +89,7 @@ li {
 header {
   background-color: rgb(242, 243, 247);
   box-shadow: 0 4px 6px 0 rgba(0,0,0,0.1);
+  font-size:1.5rem;
 }
 
 /*CONTENT*/
@@ -160,6 +163,11 @@ li > input[type="radio"]:checked ~ .bkSlide {
 
 .bookTitle {
   font-weight:bold;
+  font-size:0.95rem;
+}
+
+.bookAuthor {
+  font-size:0.85rem;
 }
 
 .moreTitles {
