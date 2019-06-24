@@ -27,3 +27,17 @@ for (let i = 0; i < books.length; i++) {
     books[i].classList.remove('scale');
   });
 }
+
+/*Add stylings to reading list buttons*/
+let readBtns = document.querySelectorAll(".readBtn")
+window.addEventListener("load", () => {
+  for (i = 0; i < readBtns.length; i++) {
+    readBtns[i].style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+    readBtns[i].style.opacity = "0.85";
+    readBtns[i].style.color = "#fff";
+    readBtns[i].style.fontWeight = "500";
+    readBtns[i].style.textShadow = "1px 1px rgba(0,0,0,0.4)";
+    readBtns[i].style.boxShadow = "0px 2px rgba(0,0,0,0.3)";
+    readBtns[i].style.marginBottom = "3.5px";
+  }
+});

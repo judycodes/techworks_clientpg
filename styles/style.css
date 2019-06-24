@@ -65,6 +65,10 @@ ul {
   list-style: none;
 }
 
+li {
+  list-style: none;
+  padding-left:0;
+}
 /*Misc Stylings*/
 .container {
   background-color:#fff;
@@ -251,6 +255,7 @@ li > input[type="radio"]:checked ~ .bkSlide {
   transform-style: preserve-3d;
   border:1px solid rgba(0,0,0,0.3);
   border-radius:5px;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.3);
 }
 
 .page:hover .page-inner {
@@ -272,6 +277,11 @@ li > input[type="radio"]:checked ~ .bkSlide {
   background: rgba(255, 153, 51, 0.2);
   color:rgb(0, 51, 102);
   transform: rotateY(180deg);
+}
+
+/*Reading Lists*/
+#lists {
+  background: url("../imgs/bookstack.jpg") center/cover no-repeat;
 }
 
 /*Carousel and Form*/
