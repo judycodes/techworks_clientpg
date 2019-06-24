@@ -33,7 +33,7 @@
       <a class="nav-link" href="#radioPK"><i class="fas fa-book mr-1"></i>Recommendations</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#contact"><i class="far fa-envelope mr-1 border-left border-color-dark pl-3"></i>Connect</a>
+      <a class="nav-link" href="#suggestions"><i class="far fa-envelope mr-1 border-left border-color-dark pl-3"></i>Connect</a>
     </li>
   </ul>
 </header>
@@ -41,8 +41,8 @@
 <main class="container-fluid d-flex flex-column align-items-center">
 <!--End of NavBar-->
 
-<div id="accbg" class="container rounded"></div>
 <!---Accordion (for featured books)-->
+<div id="accbg" class="container rounded"></div>
 <section id="bookshelf" class="py-3 my-5 rounded">
 
     <ul id="firstShelf" class="mx-auto shelf">
@@ -111,7 +111,7 @@
       </li>
   </ul>
 
-<div id="chooseBk" class="d-flex align-items-center justify-content-center"><a href="https://youtu.be/MuLZKsFho5A" target="_blank" class="my-3 text-center smallCaps pulse"><span class="borderBottom px-5">Reading is Fun!</span><br>Pick A Book Today!</a></div>
+<div id="chooseBk" class="d-flex align-items-center justify-content-center"><a href="https://youtu.be/MuLZKsFho5A" target="_blank" class="my-3 text-center smallCaps emphasis"><span class="borderBottom px-5">Reading is Fun!</span><br>Pick A Book Today!</a></div>
   <ul id="secondShelf" class="mx-auto shelf">
       <li>
         <input id="radio4" type="radio" name="radio">
@@ -227,9 +227,9 @@
 <!--End of Mission Statement-->
 
 <!--Resources-->
-<section class="container py-3 px-3" id="resrc">
-  <div class="row">
-    <div class="col-md-4">
+<section class="container rounded py-3 px-3 my-4" id="resrc">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-3">
       <h2 class="text-center py-3 border-bottom border-color-secondary smallCaps">
         Beyond the Text
       </h2>
@@ -238,36 +238,101 @@
       <p class="text-center smallCaps">Explore these pages</p>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-md-9">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4 col-sm-6">
-teachingbooks
+
+          <div class="col-md-6 mb-2">
+            <div class="page">
+              <a href="https://www.teachingbooks.net/show.cgi?f=nycreads" target="_blank">
+              <div class="page-inner">
+                <div class="page-front" id="teachBks">
+                </div>
+                <div class="page-back d-flex align-items-center">
+                  <p class="text-center px-2"><em>Teaching Books</em> offers many literature resources for students, teachers, and readers alike.</p>
+                </div>
+              </div></a>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-readahead
+
+          <div class="col-md-6 mb-2">
+            <div class="page">
+              <a href="https://readahead.org/" target="_blank">
+              <div class="page-inner">
+                <div class="page-front" id="readAhead">
+                </div>
+                <div class="page-back d-flex align-items-center">
+                  <p class="text-center px-2"><em>Read Ahead</em> offers one-on-one lunchtime reading-based mentoring sessions for students.</p>
+                </div>
+              </div></a>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-newberyfilm
+
+          <div class="col-md-6 mb-2">
+            <div class="page">
+              <a href="http://jameskennedy.com/90-second-newbery/" target="_blank">
+              <div class="page-inner">
+                <div class="page-front" id="newberyFilm">
+                </div>
+                <div class="page-back d-flex align-items-center">
+                  <p class="text-center px-2"><em>The 90-Second Newbery Film Festival</em> encourages students to create movies about Newbery-winning books.</p>
+                </div>
+              </div></a>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-rif
+
+          <div class="col-md-6 mb-2">
+            <div class="page">
+              <a href="https://www.rif.org/literacy-central" target="_blank">
+              <div class="page-inner">
+                <div class="page-front" id="rif">
+                </div>
+                <div class="page-back d-flex align-items-center">
+                  <p class="text-center px-2"><em>Reading is Fundamental</em> provides many book related resources for adults to utilize when reading with children.</p>
+                </div>
+              </div></a>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-readacrossamerica
+
+          <div class="col-md-6 mb-2">
+            <div class="page">
+              <a href="https://www.readacrossamerica.org/" target="_blank">
+              <div class="page-inner">
+                <div class="page-front" id="readAmer">
+                </div>
+                <div class="page-back d-flex align-items-center">
+                  <p class="text-center px-2"><em>Read Across America</em> is an annual reading motivation and awareness program that calls for every child in every community to celebrate reading through our theme: Celebrating a Nation of Diverse Readers.</p>
+                </div>
+              </div></a>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6">
+
+          <div class="col-md-6 mb-2">
+            <div class="page">
+              <a href="https://www.readacrossamerica.org/" target="_blank">
+              <div class="page-inner">
+                <div class="page-front" id="readAmer">
+                </div>
+                <div class="page-back d-flex align-items-center">
+                  <p class="text-center px-2"><em>Read Across America</em> is an annual reading motivation and awareness program that calls for every child in every community to celebrate reading through our theme: Celebrating a Nation of Diverse Readers.</p>
+                </div>
+              </div></a>
+            </div>
 storyonline
           </div>
-          <div class="col-md-4 col-sm-6">
+
+          <div class="col-md-6 mb-2">
 reading rockets
           </div>
-          <div class="col-md-4 col-sm-6">
+
+          <div class="col-md-6 mb-2">
 kidlittv
           </div>
-          <div class="col-md-4 col-sm-6">
+
+          <div class="col-md-6 mb-2">
 united
           </div>
+
         </div>
     </div>
   </div>
@@ -278,7 +343,7 @@ united
 <!--End of Resources-->
 
 <!--Benefits-->
-<section class="container">
+<section class="container rounded my-4">
 <div class="row">
   <div class="col-8">
 
@@ -292,17 +357,38 @@ united
 <!--End of Benefits-->
 
 <!--Reading Lists-->
-<section class="container">
+<section class="container rounded my-4">
 
 </section>
 <!--End of Benefits-->
 
 <!--Carousel with Suggestion Box Form-->
-<section id="carousel" class="container my-5 py-5">
-  <div class="row ml-3">
-    <div class=" col-md-5">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner rounded">
+<section id="carousel" class="container rounded py-4 px-5 my-4">
+   <h2 id="sugText" class="text-center mb-2 smallCaps">&bull; Comments or Suggestions? &bull;</h2>
+  <div class="row d-flex justify-content-around align-items-center">
+    <div class="col-md-6 col-sm-12">
+        <form id="suggestions" class="rounded borderTop py-3 px-4 mt-1 d-flex flex-column justify-content-center align-items-center">
+
+            <div id="name" class="mb-2">
+              <input class="rounded pl-2 py-2" type="text" placeholder="Hello, my name is ..." name="name" id="name_input" required autofocus>
+            </div>
+            <div id="email">
+              <input class="rounded pl-2 py-2" type="email" placeholder="Email me @..." name="email" id="email_input" required>
+            </div>
+
+          <div class="message mb-2">
+            <label for="message"></label>
+            <textarea class="rounded pl-2 py-2" name="message" placeholder="I'd like to say..." cols="55" rows="7" id="message_input"  required></textarea>
+          </div>
+
+          <input type="submit" class="btn smallCaps" id="submit">
+        </form>
+    </div>
+
+
+    <div class="col-md-6 col-sm-12">
+      <div id="carouselExampleControls" class="carousel slide d-flex flex-column align-items-center justify-content-center pt-3" data-ride="carousel">
+        <div class="carousel-inner rounded borderBottom">
           <div class="carousel-item active">
             <img class="img-fluid pl-0" src="/imgs/1.jpg" alt="mom and child reading together">
           </div>
@@ -329,31 +415,12 @@ united
         </a>
       </div>
       </div>
-      <div class="col-md-7">
-        <h2>Text</h2>
-      </div>
-
   </div>
-
-
 </section>
 <!--End of Carousel-->
 
-<!---Acknowledgments-->
-<section class="team container">
-
-</section>
-<!--end of Acknowledgments-->
 </main>
 
-<footer class="container">
-<div class="row">
-  <div class="col-md-6"></div>
-  <div class="col-md-6" id="contact">
-
-  </div>
-</div>
-</footer>
 <!--External Javascript-->
     <script src="/scripts/main.js"></script>
 <!--Bootstrap JS, Popper.js, and jQuery Scripts-->
