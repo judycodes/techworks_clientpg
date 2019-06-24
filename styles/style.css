@@ -107,7 +107,7 @@ main {
   position:absolute;
   top:200px;
   z-index:-1;
-  background: url("imgs/shelves.jpg") center/cover no-repeat;
+  background: url("/imgs/shelves.jpg") center/cover no-repeat;
   height:530px;
 }
 
@@ -214,35 +214,35 @@ li > input[type="radio"]:checked ~ .bkSlide {
 }
 
 #readAhead {
-  background: url("imgs/readahead.png") bottom left/cover no-repeat;
+  background: url("/imgs/readahead.png") bottom left/cover no-repeat;
 }
 
 #newberyFilm {
-  background: url("imgs/newberyfilm.png") top left/cover no-repeat;
+  background: url("/imgs/newberyfilm.png") top left/cover no-repeat;
 }
 
 #rif {
-  background: url("imgs/rif.png") top left/cover no-repeat;
+  background: url("/imgs/rif.png") top left/cover no-repeat;
 }
 
 #readAmer {
-  background: url("imgs/readacrossamerica.png") top left/cover no-repeat;
+  background: url("/imgs/readacrossamerica.png") top left/cover no-repeat;
 }
 
 #storyOnline {
-  background: url("imgs/storyonline.png") top left/cover no-repeat;
+  background: url("/imgs/storyonline.png") top left/cover no-repeat;
 }
 
 #readRockets {
-  background: url("imgs/readingrockets.png") top left/cover no-repeat;
+  background: url("/imgs/readingrockets.png") top left/cover no-repeat;
 }
 
 #kidLitTV {
-  background: url("imgs/kidlittv.png") top left/cover no-repeat;
+  background: url("/imgs/kidlittv.png") top left/cover no-repeat;
 }
 
 #unite {
-  background: url("imgs/uniteforliteracy.png") top left/cover no-repeat;
+  background: url("/imgs/uniteforliteracy.png") top left/cover no-repeat;
 }
 
 .page {
@@ -289,7 +289,7 @@ li > input[type="radio"]:checked ~ .bkSlide {
 
 /*Reading Lists*/
 #lists {
-  background: url("imgs/bookstack.jpg") center/cover no-repeat;
+  background: url("/imgs/bookstack.jpg") center/cover no-repeat;
 }
 
 /*Carousel and Form*/
@@ -303,7 +303,7 @@ li > input[type="radio"]:checked ~ .bkSlide {
 
 ::placeholder {
   color: rgba(255, 153, 51,0.7);
-  font-weight:447;
+  font-weight:400;
 }
 
 #suggestions input {
