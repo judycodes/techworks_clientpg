@@ -201,10 +201,6 @@ li > input[type="radio"]:checked ~ .bkSlide {
   box-shadow: 0 4px 6px 0 rgba(0,0,0,0.3);
 }
 
-#teachBks {
-  background: url("../imgs/teachingbooks.png") top left/cover no-repeat;
-}
-
 #readAhead {
   background: url("../imgs/readahead.png") bottom left/cover no-repeat;
 }
@@ -221,10 +217,26 @@ li > input[type="radio"]:checked ~ .bkSlide {
   background: url("../imgs/readacrossamerica.png") top left/cover no-repeat;
 }
 
+#storyOnline {
+  background: url("../imgs/storyonline.png") top left/cover no-repeat;
+}
+
+#readRockets {
+  background: url("../imgs/readingrockets.png") top left/cover no-repeat;
+}
+
+#kidLitTV {
+  background: url("../imgs/kidlittv.png") top left/cover no-repeat;
+}
+
+#unite {
+  background: url("../imgs/uniteforliteracy.png") top left/cover no-repeat;
+}
+
 .page {
   background-color: transparent;
   width: 100%;
-  height: 150px;
+  height: 200px;
 
   perspective: 1000px;
   border-radius:5px;
