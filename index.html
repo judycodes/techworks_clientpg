@@ -802,18 +802,37 @@
    <h2 id="sugText" class="text-center mb-2 smallCaps">&bull; Comments or Suggestions? &bull;</h2>
   <div class="row d-flex justify-content-around align-items-center">
     <div class="col-md-6 col-sm-12">
-        <form id="suggestions" class="rounded borderTop py-3 px-4 mt-1 d-flex flex-column justify-content-center align-items-center">
+      <form id="suggestions" class="rounded borderTop py-3 px-4 mt-1 d-flex flex-column justify-content-center align-items-center needs-validation was-validated" novalidate>
 
-            <div id="name" class="mb-2">
-              <input class="rounded pl-2 py-2" type="text" placeholder="Hello, my name is ..." name="name" id="name_input" required>
+        <div id="name" class="mb-2">
+          <input type="text" class="form-control" placeholder="Hello, my name is ..." required>
+          <div class="valid-feedback">
+            Great name! Nice to meet you!
+          </div>
+          <div class="invalid-feedback">
+              Please let us know what to call you.
             </div>
-            <div id="email">
-              <input class="rounded pl-2 py-2" type="email" placeholder="Email me @..." name="email" id="email_input" required>
+        </div>
+
+        <div id="email" class="mb-2">
+            <input type="email" id="email_input" class="rounded pl-2 py-2 form-control" placeholder="Email me @..." name="email" required>
+            <div class="valid-feedback">
+              Wonderful! Expect a response in your inbox AFTER you submit your message!
             </div>
+            <div class="invalid-feedback">
+              We would like to be able to reply to you, so include a valid email address.
+            </div>
+          </div>
 
           <div class="message mb-2">
             <label for="message"></label>
-            <textarea class="rounded pl-2 py-2" name="message" placeholder="I'd like to say..." cols="55" rows="7" id="message_input"  required></textarea>
+            <textarea class="rounded pl-2 py-2 form-control" name="message" placeholder="I'd like to say..." cols="55" rows="7" id="message_input"  required></textarea>
+            <div class="valid-feedback">
+              Write as much as you would like.
+            </div>
+            <div class="invalid-feedback">
+              Don't hesitate to reach out to us! We would love to hear from you.
+            </div>
           </div>
 
           <input type="submit" class="btn smallCaps" id="submit">
